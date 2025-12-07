@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\Gestion_Etablissement\\gestion_etablissement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\eleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\eleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -23,6 +51,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Utilisateur.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Utilisateur.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:32.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Professeur.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Professeur.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Professeur.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Professeur.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Professeur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:28.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmploiDuTemps.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\EmploiDuTemps.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\EmploiDuTemps.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\EmploiDuTemps.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\EmploiDuTemps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:24.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Eleve.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Eleve.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Eleve.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Eleve.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Eleve.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:20.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Directeur.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Directeur.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Directeur.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Directeur.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Directeur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:16.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Classe.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Classe.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Classe.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Classe.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Classe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:32:08.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Cours.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Cours.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Cours.cs",
+              "RelativeToolTip": "gestion_etablissement\\Model\\Cours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:30:57.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml",
               "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml",
@@ -34,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml.cs",
@@ -42,16 +169,7 @@
               "RelativeToolTip": "gestion_etablissement\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:22:25.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-12-06T20:22:25.247Z"
             }
           ]
         }
