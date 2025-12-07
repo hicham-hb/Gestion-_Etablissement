@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Gestion_Etablissement\\gestion_etablissement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "gestion_etablissement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:50:38.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Utilisateur.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Utilisateur.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Professeur.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Professeur.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Professeur.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmploiDuTemps.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\EmploiDuTemps.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\EmploiDuTemps.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Eleve.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Eleve.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Eleve.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Directeur.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Directeur.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Directeur.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Classe.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Classe.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Classe.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Cours.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\Model\\Cours.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Cours.cs",
@@ -140,16 +157,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml",
               "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml",
@@ -161,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml.cs",
@@ -169,7 +178,8 @@
               "RelativeToolTip": "gestion_etablissement\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:22:25.247Z"
+              "WhenOpened": "2025-12-06T20:22:25.247Z",
+              "EditorCaption": ""
             }
           ]
         }
