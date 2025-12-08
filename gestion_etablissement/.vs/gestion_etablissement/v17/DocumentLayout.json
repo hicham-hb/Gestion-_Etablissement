@@ -1,64 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\directeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\eleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\eleve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\model\\professeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\migrations\\20251208015909_etablissement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\migrations\\20251208015909_etablissement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|d:\\cite collegiale\\session 3\\nouveau dossier\\gestion_etablissement\\gestion_etablissement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46BFA9C-AA36-4197-B6B5-56BEC8D94499}|gestion_etablissement\\gestion_etablissement.csproj|solutionrelative:gestion_etablissement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\la_cite\\session_03\\03-analyse et conception de systeme\\exam UA3\\Gestion-_Etablissement\\gestion_etablissement\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -66,190 +9,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\ViewModel\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\ViewModel\\HomeViewModel.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\ViewModel\\HomeViewModel.cs",
-              "RelativeToolTip": "gestion_etablissement\\ViewModel\\HomeViewModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIA0wBQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T03:17:01.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeView.xaml",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\View\\HomeView.xaml",
-              "RelativeDocumentMoniker": "gestion_etablissement\\View\\HomeView.xaml",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\View\\HomeView.xaml",
-              "RelativeToolTip": "gestion_etablissement\\View\\HomeView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-08T03:15:57.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeView.xaml.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\View\\HomeView.xaml.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\View\\HomeView.xaml.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\View\\HomeView.xaml.cs",
-              "RelativeToolTip": "gestion_etablissement\\View\\HomeView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T03:15:39.627Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "gestion_etablissement\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:50:38.707Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Utilisateur.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Utilisateur.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Utilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:32.941Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Professeur.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Professeur.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Professeur.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Professeur.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Professeur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:28.263Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmploiDuTemps.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\EmploiDuTemps.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\EmploiDuTemps.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\EmploiDuTemps.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\EmploiDuTemps.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:24.204Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Eleve.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Eleve.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Eleve.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Eleve.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Eleve.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:20.177Z",
-              "EditorCaption": ""
-            },
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Directeur.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Directeur.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Directeur.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Directeur.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Directeur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:16.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Classe.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Classe.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Classe.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Classe.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Classe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:32:08.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cours.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Cours.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Model\\Cours.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Model\\Cours.cs",
-              "RelativeToolTip": "gestion_etablissement\\Model\\Cours.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:30:57.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml",
-              "RelativeToolTip": "gestion_etablissement\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T20:22:28.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20251208015909_Etablissement.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Migrations\\20251208015909_Etablissement.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\Migrations\\20251208015909_Etablissement.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\Migrations\\20251208015909_Etablissement.cs",
-              "RelativeToolTip": "gestion_etablissement\\Migrations\\20251208015909_Etablissement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T01:59:10.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "gestion_etablissement\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\MainWindow.xaml.cs",
-              "RelativeToolTip": "gestion_etablissement\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:22:25.247Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
