@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using System.Windows;              // <- pour Application.Current
+using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -56,20 +56,29 @@ namespace gestion_etablissement.ViewModel
                     return;
                 }
 
-                // On efface le message d’erreur si la connexion est OK
+                // On efface le message d'erreur si la connexion est OK
                 ErrorMessage = string.Empty;
 
                 // Si tout est bon → ouvrir la fenêtre principale
-                var mainWindow = Application.Current.MainWindow;
-                if (mainWindow != null)
+                Application.Current.Dispatcher.Invoke(() =>
                 {
-                    mainWindow.Content = new HomeView();
-                }
+                    var mainWindow = Application.Current.MainWindow;
+                    if (mainWindow != null)
+                    {
+                        mainWindow.Content = new HomeView();
+                    }
+                });
             }
             catch (Exception ex)
             {
                 ErrorMessage = $"Erreur de connexion à la base de données : {ex.Message}";
             }
+        }
+
+        // Implémentation de IDisposable pour libérer le contexte
+        public void Dispose()
+        {
+            _context?.Dispose();
         }
     }
 }
