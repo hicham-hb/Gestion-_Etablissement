@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+out/
+
+# VS Cache
+*.slnx
+*.vcxproj.user
+
+# Generated files
+*.cache
+*.vspx
+*.vsidx
+*.vstown
+
+# Others
+*.log
