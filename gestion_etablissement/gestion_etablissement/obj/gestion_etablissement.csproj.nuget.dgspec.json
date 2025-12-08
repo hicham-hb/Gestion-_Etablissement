@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj": {}
+    "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj": {}
   },
   "projects": {
-    "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj": {
+    "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj",
+        "projectUniqueName": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj",
         "projectName": "gestion_etablissement",
-        "projectPath": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj",
-        "packagesPath": "C:\\Users\\Hbelg\\.nuget\\packages\\",
-        "outputPath": "D:\\Gestion_Etablissement\\gestion_etablissement\\gestion_etablissement\\obj\\",
+        "projectPath": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\gestion_etablissement.csproj",
+        "packagesPath": "C:\\Users\\Albert\\.nuget\\packages\\",
+        "outputPath": "D:\\CITE COLLEGIALE\\Session 3\\Nouveau dossier\\gestion_etablissement\\gestion_etablissement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hbelg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Albert\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

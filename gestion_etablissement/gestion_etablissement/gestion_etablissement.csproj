@@ -10,8 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="ViewModel\" />
-    <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>
