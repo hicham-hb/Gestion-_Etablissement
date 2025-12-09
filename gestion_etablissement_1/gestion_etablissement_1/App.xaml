@@ -1,0 +1,321 @@
+﻿<Application x:Class="gestion_etablissement_1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:gestion_etablissement_1.View"
+             xmlns:vm="clr-namespace:gestion_etablissement_1.ViewModel"
+             StartupUri="MainWindow.xaml">
+
+
+   
+
+    <Application.Resources>
+
+        <!-- Liaison View <-> ViewModel -->
+        <DataTemplate DataType="{x:Type vm:LoginViewModel}">
+            <local:LoginView/>
+        </DataTemplate>
+        <!-- <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+    <local:HomelView/>
+</DataTemplate> -->
+        
+
+
+        <!-- Style TextBox arrondi -->
+        <Style x:Key="RoundedTexBox" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="2"
+                            Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style PasswordBox arrondi -->
+        <Style x:Key="RoundedPasswordBox" TargetType="PasswordBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="2"
+                            Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style Button arrondi -->
+        <Style x:Key="RoundedButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="20"
+                            Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+        </Style>
+
+
+
+        <!-- Couleurs -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#6B1FD7"/>
+        <SolidColorBrush x:Key="PrimaryLight" Color="#8F4DFF"/>
+        <SolidColorBrush x:Key="BgLight" Color="#F8F9FB"/>
+        <SolidColorBrush x:Key="RowAlt" Color="#F1E8FF"/>
+
+        <!-- DataGrid -->
+        <Style TargetType="DataGrid" x:Key="ClientDataGridStyle">
+            <Setter Property="Background" Value="{StaticResource BgLight}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1.5"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="{StaticResource RowAlt}"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+
+        <!-- En-têtes DataGrid -->
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="6"/>
+        </Style>
+
+        <!-- Lignes DataGrid -->
+        <Style TargetType="DataGridRow">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#E5D6FF"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#D1C4FF"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- TextBox par défaut -->
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="BorderBrush" Value="#D0D0D0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- Bouton violet -->
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="6,3"/>
+            <Setter Property="Width" Value="90"/>
+            <Setter Property="Height" Value="22"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                            CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource PrimaryLight}"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#4A0FA9"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Bouton danger -->
+        <Style x:Key="DangerButton" BasedOn="{StaticResource PrimaryButton}" TargetType="Button">
+            <Setter Property="Background" Value="#C0392B"/>
+            <Setter Property="Width" Value="100"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#E74C3C"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Label de formulaire -->
+        <Style x:Key="FormLabel" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="#444"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,5,0"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+        <!-- TextBox de formulaire -->
+        <Style x:Key="FormTextBox" TargetType="TextBox">
+            <Setter Property="Width" Value="220"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="Padding" Value="4,2"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border"
+                            CornerRadius="5"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                      Margin="0"
+                                      Focusable="False"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#6B1FD7"/>
+                                <Setter TargetName="border" Property="BorderThickness" Value="1.5"/>
+                                <Setter TargetName="border" Property="Background" Value="#F9F5FF"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#8F4DFF"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Background" Value="#EEE"/>
+                                <Setter Property="Foreground" Value="#888"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Cartes du tableau de bord -->
+        <Style x:Key="DashboardCardStyle" TargetType="Border">
+            <Setter Property="Background" Value="#F7F4FF"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Width" Value="130"/>
+            <Setter Property="Height" Value="120"/>
+        </Style>
+
+        <Style x:Key="DashboardTitleText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="DashboardNumberText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Margin" Value="0,5,0,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="DashboardSubText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Foreground" Value="#777"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Style global pour les boutons du menu latéral -->
+        <Style x:Key="SideMenuButton" TargetType="Button">
+            <Setter Property="Background" Value="#EDE7F6"/>
+            <Setter Property="Foreground" Value="#2F2F2F"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="bd"
+                            Background="{TemplateBinding Background}"
+                            CornerRadius="4"
+                            Padding="5,2">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="bd" Property="Background" Value="#FFFFFF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="bd" Property="Background" Value="#9D5FFF"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <SolidColorBrush x:Key="LoginLeftColor" Color="#FF7B2FF7" />
+
+        <Style x:Key="LoginLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,5,0,0"/>
+        </Style>
+
+        <Style x:Key="LoginPrimaryButton" BasedOn="{StaticResource RoundedButton}" TargetType="Button">
+            <Setter Property="Background" Value="#FF7B2FF7"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+
+
+    </Application.Resources>
+
+</Application>

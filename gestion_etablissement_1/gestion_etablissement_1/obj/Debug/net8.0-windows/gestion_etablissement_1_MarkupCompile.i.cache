@@ -1,0 +1,20 @@
+﻿gestion_etablissement_1
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Gestion_Etablissement (test)\gestion_etablissement_1\gestion_etablissement_1\obj\Debug\net8.0-windows\
+gestion_etablissement_1
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\Gestion_Etablissement (test)\gestion_etablissement_1\gestion_etablissement_1\App.xaml
+8-1806206095
+1232637163
+28-621359108
+217-415517560
+MainWindow.xaml;View\AccueilView.xaml;View\ClasseView.xaml;View\CourView.xaml;View\EleveView.xaml;View\HomeView.xaml;View\LoginView.xaml;View\ProfesseurView.xaml;
+
+True
+

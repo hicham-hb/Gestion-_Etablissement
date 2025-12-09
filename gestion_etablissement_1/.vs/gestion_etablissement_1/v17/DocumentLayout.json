@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|d:\\gestion_etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\viewmodel\\eleveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|solutionrelative:gestion_etablissement_1\\viewmodel\\eleveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|d:\\gestion_etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|solutionrelative:gestion_etablissement_1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|d:\\gestion_etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\view\\accueilview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|solutionrelative:gestion_etablissement_1\\view\\accueilview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|d:\\gestion_etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|solutionrelative:gestion_etablissement_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|d:\\gestion_etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D224CE0-C5AC-473A-8BC4-0417F975251D}|gestion_etablissement_1\\gestion_etablissement_1.csproj|solutionrelative:gestion_etablissement_1\\model\\emploidutemps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EleveViewModel.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\ViewModel\\EleveViewModel.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement_1\\ViewModel\\EleveViewModel.cs",
+              "ToolTip": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\ViewModel\\EleveViewModel.cs",
+              "RelativeToolTip": "gestion_etablissement_1\\ViewModel\\EleveViewModel.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAowNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:07:37.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "gestion_etablissement_1\\MainWindow.xaml",
+              "ToolTip": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\MainWindow.xaml",
+              "RelativeToolTip": "gestion_etablissement_1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-09T00:47:41.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccueilView.xaml",
+              "DocumentMoniker": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\View\\AccueilView.xaml",
+              "RelativeDocumentMoniker": "gestion_etablissement_1\\View\\AccueilView.xaml",
+              "ToolTip": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\View\\AccueilView.xaml",
+              "RelativeToolTip": "gestion_etablissement_1\\View\\AccueilView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T02:39:38.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\App.xaml",
+              "RelativeDocumentMoniker": "gestion_etablissement_1\\App.xaml",
+              "ToolTip": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\App.xaml",
+              "RelativeToolTip": "gestion_etablissement_1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T02:38:18.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmploiDuTemps.cs",
+              "DocumentMoniker": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\Model\\EmploiDuTemps.cs",
+              "RelativeDocumentMoniker": "gestion_etablissement_1\\Model\\EmploiDuTemps.cs",
+              "ToolTip": "D:\\Gestion_Etablissement (test)\\gestion_etablissement_1\\gestion_etablissement_1\\Model\\EmploiDuTemps.cs",
+              "RelativeToolTip": "gestion_etablissement_1\\Model\\EmploiDuTemps.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T02:34:32.878Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
