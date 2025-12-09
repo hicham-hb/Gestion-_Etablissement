@@ -1,4 +1,5 @@
 # Gestion-_Etablissement
+<<<<<<< HEAD
 ## 🎯 Objectif du projet
 
 Ce projet a pour objectif de fournir une application  permettant de gérer la vie scolaire :  
@@ -107,3 +108,6 @@ Base de données : SQLite
 ORM : Entity Framework Core
 
 IDE : Visual Studio 2022
+=======
+Gestion d'un établissement secondaire
+>>>>>>> b3c787742f7b4078f113deac953d2774a0853782
